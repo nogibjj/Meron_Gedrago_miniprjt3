@@ -14,9 +14,7 @@ def describe_data(input_data):
     mean = input_data.mean()
     median = input_data.median()
     std = input_data.std()
-    return (
-        f"The mean is {mean}; the median is {median}; the standard deviation is {std}"
-    )
+    return f"The mean is {mean}; the median is {median}; the sd is {std}"
 
 
 # create a function to get the median of the data
