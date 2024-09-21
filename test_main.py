@@ -1,4 +1,4 @@
-from main import load_dataset, describe_data, find_min_and_max
+from mylib.lib import load_dataset, describe_data, find_min_and_max
 
 
 # assinging a test data csv that has a very simple data with the from 1921 to 2023
