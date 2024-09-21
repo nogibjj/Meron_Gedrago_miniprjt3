@@ -2,12 +2,12 @@ install:
 	pip install --upgrade pip && pip install -r requirements.txt
 
 test: 
-	python -m pytest -cov=main test_MG_main.py
+	python -m pytest -cov=main test_main.py
 
 format:
 	black *.py
 
 lint:
-	pylint --disable=R,C --ignore-patterns=test_.*?py *.py
+	ruff check *.py mylib/*.py test_*.py *.ipynb
 
 all: install format lint test
