@@ -6,8 +6,6 @@ test_data_csv = "test.csv"
 test_data = load_dataset(test_data_csv)
 column_of_int = test_data["Number of employees"]
 
-column_of_int.mean
-
 
 def test_load_data():
     test_data = load_dataset(test_data_csv)
