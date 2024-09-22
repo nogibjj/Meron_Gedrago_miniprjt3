@@ -1,4 +1,4 @@
-# import packages
+# import necessary packages
 import polars as pl
 import matplotlib.pyplot as plt
 
