@@ -4,9 +4,7 @@ from mylib.lib import load_dataset, describe_data, find_min_and_max
 # assinging a test data csv that has a very simple data with the from 1921 to 2023
 test_data_csv = "test.csv"
 test_data = load_dataset(test_data_csv)
-column_of_int = test_data["Number of employees"]
-
-column_of_int.mean
+column_of_int = test_data.select(["Number of employees"])
 
 
 def test_load_data():

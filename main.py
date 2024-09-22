@@ -1,4 +1,4 @@
-from mylib.lib import load_dataset, describe_data, find_min_and_max, create_graph
+from mylib.lib import load_dataset, describe_data, find_min_and_max
 import polars as pl
 
 loaded_data = load_dataset(
@@ -32,4 +32,3 @@ report_data = f"""
 
 with open("summary_report.md", "w") as f:
     f.write(report_data)
-print(describe_data(interested_column))
