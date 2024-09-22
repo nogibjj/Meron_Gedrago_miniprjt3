@@ -23,6 +23,6 @@ report_data = f"""
     ![Death rate over the years](Data_visual.png)
 
 """
-create_graph(interested_column)
+create_graph(data)
 with open("summary_report.md", "w") as f:
     f.write(report_data)
