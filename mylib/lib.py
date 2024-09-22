@@ -9,17 +9,10 @@ def load_dataset(dataset):
 
 
 # calculate and print the summary statistics
-def stats_overview(input_data):
+def describe_data(input_data):
     std = input_data.std()
     median = input_data.median()
     mean = input_data.mean()
-    return f"The mean is {mean}; the median is {median}; the sd is {std}"
-
-
-def describe_data(input_data):
-    mean = pl.mean(input_data)
-    median = pl.median(input_data)
-    std = pl.std(input_data)
     return f"The mean is {mean}; the median is {median}; the sd is {std}"
 
 
