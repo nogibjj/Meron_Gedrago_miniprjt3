@@ -15,8 +15,7 @@ def test_load_data():
 def test_stats_describe():
     summary_stats = describe_data(column_of_int)
     assert (
-        summary_stats
-        == "The mean is 4964.86; the median is 4941.5; the sd is 2850.8597994927136"
+        summary_stats == "The mean is 4964.86; the median is 4941.5; the sd is 2850.86"
     )
 
 
