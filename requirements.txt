@@ -10,7 +10,8 @@ pandas==2.2.2
 matplotlib==3.9.2
 numpy==2.1.1
 
-#to lint with ruff 
+#to lint with ruff and test with nbval plugin
+nbval==0.10.0  
 ruff==0.0.284
 
  
