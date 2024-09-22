@@ -30,7 +30,7 @@ def create_graph(input_data):
     plt.xlabel("Year")
     plt.ylabel("Deaths per 100,000 resident population")
     plt.title("Death rates from overdose over year")
-    plt.xticks(range(int(data["YEAR"].min()), int(data["YEAR"].max()), 2))
+    plt.xticks(range(int(input_data["YEAR"].min()), int(input_data["YEAR"].max()), 2))
     plt.show()
 
 
