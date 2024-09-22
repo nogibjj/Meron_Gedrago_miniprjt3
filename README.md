@@ -1,16 +1,15 @@
-[![Format](https://github.com/nogibjj/Meron_Gedrago_individual1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Meron_Gedrago_individual1/actions/workflows/format.yml)
-[![Install](https://github.com/nogibjj/Meron_Gedrago_individual1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Meron_Gedrago_individual1/actions/workflows/install.yml)
-[![Lint](https://github.com/nogibjj/Meron_Gedrago_individual1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Meron_Gedrago_individual1/actions/workflows/lint.yml)
-[![Test](https://github.com/nogibjj/Meron_Gedrago_individual1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Meron_Gedrago_individual1/actions/workflows/test.yml)
-
+[![Format](https://github.com/nogibjj/Meron_Gedrago_miniprjt3/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Meron_Gedrago_miniprjt3/actions/workflows/format.yml)
+[![Install](https://github.com/nogibjj/Meron_Gedrago_miniprjt3/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Meron_Gedrago_miniprjt3/actions/workflows/install.yml)
+[![Lint](https://github.com/nogibjj/Meron_Gedrago_miniprjt3/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Meron_Gedrago_miniprjt3/actions/workflows/lint.yml)
+[![Test](https://github.com/nogibjj/Meron_Gedrago_miniprjt3/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Meron_Gedrago_miniprjt3/actions/workflows/test.yml)
 
 # Meron_Gedrago_Individual_project1 
 
-Welcome to the first individual project for Data Engineering!
+Welcome to the third mini project for Data Engineering!
 
 ## Structure for this project 
 
-This project aims to build on top of the the second mini project (Meron_Gedrago_miniproject2) where we worked on reading csv files using pandas and visualizing a dataset. In this project, we will create a library of function which will serve a source of functions for the python script and jupyter notebook we will create. Additionally, we will be creating separate badges for different CI actions and lint using rust. Find below the structure of the project
+This project serves as an introduction to polars, this project is a recreation of my [Individual Project 1](https://github.com/nogibjj/Meron_Gedrago_individual1) with polars. Similarly to the individual project, we use polars to read and describe the data, as well as use matplotlib to visualize the data. Find below the structure of the project
 
 ```
 ├── .devcontainer/
@@ -58,6 +57,9 @@ The max is 21.6 and the min is 6.0
 
 
 ## References 
+
 **Previous projects**
-- [Meron Gedrago Data Engineering mini project 1](https://github.com/nogibjj/Meron_Gedrago_miniproject1)
+- [Individual Project 1](https://github.com/nogibjj/Meron_Gedrago_individual1)
 - [Meron Gedrago Data Engineering mini project 2](https://github.com/nogibjj/Meron_Gedrago_miniprojt2)
+- [Meron Gedrago Data Engineering mini project 1](https://github.com/nogibjj/Meron_Gedrago_miniproject1)
+
