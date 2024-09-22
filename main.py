@@ -15,14 +15,14 @@ data = loaded_data.filter(
 interested_column = data.select(["ESTIMATE"])
 
 report_data = f"""
-    ## Key statistics 
-    - **Mean, Median and Standard Deviation**: {describe_data(interested_column)} 
-    - **Range**: {find_min_and_max(interested_column)} 
-    
-    ## Death rate over the years
-    ![Death rate over the years](Data_visual.png)
+#Key statistics 
+- **Mean, Median and Standard Deviation**: {describe_data(interested_column)} 
+- **Range**: {find_min_and_max(interested_column)} 
 
+# Death rate oßver the years 
+<img src="./Data_visual.png" alt="Death rate over the years" style="width:600px;">
 """
+
 create_graph(data)
 with open("summary_report.md", "w") as f:
     f.write(report_data)
