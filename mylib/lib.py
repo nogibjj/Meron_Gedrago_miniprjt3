@@ -5,11 +5,17 @@ import matplotlib.pyplot as plt
 
 # create a function to read the dataset and filter the
 def load_dataset(dataset):
-    data_set = pl.read_csv(dataset)
-    return data_set
+    return pl.read_csv(dataset)
 
 
 # calculate and print the summary statistics
+def stats_overview(input_data):
+    std = input_data.std()
+    median = input_data.median()
+    mean = input_data.mean()
+    return f"The mean is {mean}; the median is {median}; the sd is {std}"
+
+
 def describe_data(input_data):
     mean = pl.mean(input_data)
     median = pl.median(input_data)
@@ -19,8 +25,8 @@ def describe_data(input_data):
 
 # create a function to get the median of the data
 def find_min_and_max(input_data):
-    data_max = pl.max(input_data)
-    data_min = pl.min(input_data)
+    data_max = input_data.max()
+    data_min = input_data.min()
     return f"The max is {data_max} and the min is {data_min}"
 
 
