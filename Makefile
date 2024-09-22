@@ -15,5 +15,12 @@ container-lint:
 
 refactor: format lint
 
+generate_and_push:
+	git config --local user.email "action@github.com"; \
+	git config --local user.name "GitHub Action"; \
+	git add main.py summary_report.md; \
+	git commit -m "Add generated plot and report"; \
+	git push; \
+
 
 all: install format lint test
