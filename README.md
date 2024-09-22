@@ -1,11 +1,19 @@
-[![CI](https://github.com/nogibjj/Meron_Gedrago_miniprojt2/actions/workflows/CI.yml/badge.svg)](https://github.com/nogibjj/Meron_Gedrago_miniprojt2/actions/workflows/CI.yml)
+[![Format](https://github.com/nogibjj/Meron_Gedrago_individual1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Meron_Gedrago_individual1/actions/workflows/format.yml)
+
+[![Install](https://github.com/nogibjj/Meron_Gedrago_individual1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Meron_Gedrago_individual1/actions/workflows/install.yml)
+
+[![Lint](https://github.com/nogibjj/Meron_Gedrago_individual1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Meron_Gedrago_individual1/actions/workflows/lint.yml)
+
+[![Test](https://github.com/nogibjj/Meron_Gedrago_individual1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Meron_Gedrago_individual1/actions/workflows/test.yml)
+
+
 # Meron_Gedrago_Individual_project1 
 
 Welcome to the first individual project for Data Engineering!
 
 ## Structure for this project 
 
-This project aims to build on top of the the second mini project (Meron_Gedrago_miniproject2) where we worked on reading csv files using pandas and visualizing a dataset. In this project, we will create a library of function which will serve a source of functions for the python script and jupyter notebook we will create. Additionally, we will be creating separate badges for different CI actions and lint using rust. Find below the structure of the project and find the documents that we will discuss further in this project in *italic*
+This project aims to build on top of the the second mini project (Meron_Gedrago_miniproject2) where we worked on reading csv files using pandas and visualizing a dataset. In this project, we will create a library of function which will serve a source of functions for the python script and jupyter notebook we will create. Additionally, we will be creating separate badges for different CI actions and lint using rust. Find below the structure of the project
 
 ```
 ├── .devcontainer/
@@ -13,25 +21,24 @@ This project aims to build on top of the the second mini project (Meron_Gedrago_
 │   └── Dockerfile
 ├── .github/
 │   └── workflows/
-│       ├── CI.yml
+│       ├── format.yml
+│       ├── install.yml
+│       ├── lint.yml
+│       ├── test.yml
+├── mylib/
+│   └── lib.py
 ├── .gitignore
 ├── Requirements.txt
 ├── Makefile
-├── *README.md*
-├── *MG_main.py*
-├── *Data_visual.png*
-└── *test_MG_main.py*
-```
-The main focus of this project are in the following documents: 
+├── README.md
+├── main.py
+├── main.ipynb
+├── Data_visual.png
+├── test.csv
+├── test_lib.csv
+└── test_main.py
 
-* *README.md*: This is the document that you are reading right now that explains the purpose of the project as well as the analysis performed in MG_main.py and the findings from the analysis. 
-* *MG_main.py*: I created four functions in this file
-    1. *load_dataset(dataset)*: loads and reads a csv file    
-    2. *describe_data(data)*: inputs a column or row of interest and outputs the mean, median and standard deviation for the column/row or group
-    3. *find_min_and_max(data)*: input a column or row of interest and outputs the min and max of the column/row or group
-    4. *create_graph(data)*: creates a scatterplot from the data that has been given 
-* *Data_visual.png*: a picture that has been generated from the *create_graph* function 
-* *test_MG_main.py*: a series of functions that test if the functions from *MG_main.py* are working correctly using a random test dataset *test_organization.csv* 
+```
 
 ## Purpose of this project and findings 
 
@@ -50,3 +57,8 @@ The max is 21.6 and the min is 6.0
 
 <img src="Data_visual.png" alt="alt text" width="1000">
 
+
+
+## References 
+Previous projects 
+Link here 
