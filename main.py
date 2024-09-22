@@ -18,9 +18,18 @@ data = loaded_data.filter(
     & (pl.col("PANEL") == "All drug overdose deaths")
     & (pl.col("UNIT") == "Deaths per 100,000 resident population, crude")
 )
-
-
 interested_column = data.select(["ESTIMATE"])
+
+report_data = f"""
+    ## Key statistics 
+    - **Mean, Median and Standard Deviation**: {describe_data(interested_column)} 
+    - **Range**: {find_min_and_max(interested_column)} 
+    
+    ## Death rate over the years
+    ![Death rate over the years](Data_visual.png)
+
+"""
+
+with open("summary_report.md", "w") as f:
+    f.write(report_data)
 print(describe_data(interested_column))
-print(find_min_and_max(interested_column))
-create_graph(data)

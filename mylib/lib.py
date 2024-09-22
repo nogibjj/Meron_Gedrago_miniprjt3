@@ -13,14 +13,14 @@ def describe_data(input_data):
     std = input_data.std()
     median = input_data.median()
     mean = input_data.mean()
-    return f"The mean is {mean}; the median is {median}; the sd is {std}"
+    return f"The mean is {mean.item()}; the median is {median.item()}; the sd is {std.item()}"
 
 
 # create a function to get the median of the data
 def find_min_and_max(input_data):
     data_max = input_data.max()
     data_min = input_data.min()
-    return f"The max is {data_max} and the min is {data_min}"
+    return f"The max is {data_max.item()} and the min is {data_min.item()}"
 
 
 def create_graph(input_data):
