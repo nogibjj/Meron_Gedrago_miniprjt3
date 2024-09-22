@@ -17,7 +17,7 @@ refactor: format lint
 
 generate_and_push:
 	# Create the markdown file
-	python main.py
+	python main.md
 
 	# Add, commit, and push the generated files to GitHub
 	git config --local user.email "action@github.com"; \
