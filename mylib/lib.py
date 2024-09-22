@@ -25,7 +25,7 @@ def find_min_and_max(input_data):
 
 def create_graph(input_data):
     # Create visualization
-    plt.scatter(input_data["YEAR"], input_data["ESTIMATE"])
+    plt.scatter(input_data.select(["YEAR"]), input_data.select(["ESTIMATE"]))
     plt.xlabel("Year")
     plt.ylabel("Deaths per 100,000 resident population")
     plt.title("Death rates from overdose over year")
