@@ -1,9 +1,6 @@
 [![Format](https://github.com/nogibjj/Meron_Gedrago_individual1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Meron_Gedrago_individual1/actions/workflows/format.yml)
-
 [![Install](https://github.com/nogibjj/Meron_Gedrago_individual1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Meron_Gedrago_individual1/actions/workflows/install.yml)
-
 [![Lint](https://github.com/nogibjj/Meron_Gedrago_individual1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Meron_Gedrago_individual1/actions/workflows/lint.yml)
-
 [![Test](https://github.com/nogibjj/Meron_Gedrago_individual1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Meron_Gedrago_individual1/actions/workflows/test.yml)
 
 
@@ -60,5 +57,6 @@ The max is 21.6 and the min is 6.0
 
 
 ## References 
-Previous projects 
-Link here 
+**Previous projects**
+- ([Meron Gedrago Data Engineering mini project 1](https://github.com/nogibjj/Meron_Gedrago_miniproject1))
+- [Meron Gedrago Data Engineering mini project 2](https://github.com/nogibjj/Meron_Gedrago_miniprojt2)
