@@ -39,7 +39,7 @@ This project aims to build on top of the the second mini project (Meron_Gedrago_
 
 ## Purpose of this project and findings 
 
-Source of the dataset: https://catalog.data.gov/dataset/drug-overdose-death-rates-by-drug-type-sex-age-race-and-hispanic-origin-united-states-3f72f/resource/e8eca080-11f4-4ff6-85f6-5476093f5361 
+Source of the data: [the National Vital Statistics System](https://catalog.data.gov/dataset/drug-overdose-death-rates-by-drug-type-sex-age-race-and-hispanic-origin-united-states-3f72f/resource/e8eca080-11f4-4ff6-85f6-5476093f5361)
 
 The dataset looks at the death in the United States over the years due to drugs. The data has multiple columns and breaks down where the death rates are coming from. For this project, 
 I will just be focusing on looking at the trend of death rates over the year. Therefore, I had to filter the dataset in *MG_main.py*. 
@@ -47,6 +47,7 @@ From the analysis, there is an average of 12-13 per 100,000 people losing their 
 
 ```
 The mean is 12.45; the median is 12.05; the standard deviation is 4.507012080606934
+
 The max is 21.6 and the min is 6.0
 
 ```
@@ -58,5 +59,5 @@ The max is 21.6 and the min is 6.0
 
 ## References 
 **Previous projects**
-- ([Meron Gedrago Data Engineering mini project 1](https://github.com/nogibjj/Meron_Gedrago_miniproject1))
+- [Meron Gedrago Data Engineering mini project 1](https://github.com/nogibjj/Meron_Gedrago_miniproject1)
 - [Meron Gedrago Data Engineering mini project 2](https://github.com/nogibjj/Meron_Gedrago_miniprojt2)
