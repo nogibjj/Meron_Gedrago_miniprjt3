@@ -1,15 +1,14 @@
 from main import load_dataset, describe_data, find_min_and_max
-import polars as pl
+
 
 # assinging a test data csv that has a very simple data with the from 1921 to 2023
-test_data_csv = "test.csv"
-test_data = load_dataset(test_data_csv)
-type(test_data)
-column_of_int = test_data.get_column("Number of employees")
+
+test_data = load_dataset("test.csv")
+column_of_int = test_data.select([]"Number of employees"])
 
 
 def test_load_data():
-    test_data = load_dataset(test_data_csv)
+    test_data = load_dataset("test.csv")
     assert test_data is not None
 
 
